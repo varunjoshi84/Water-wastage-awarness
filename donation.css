@@ -1,0 +1,49 @@
+body {
+    body {
+        background-image: url("istockphoto-1378589503-2048x2048.jpg");
+        background-size: cover;
+        background-position: center; 
+        font-family: Arial, sans-serif;
+    }
+    
+  }
+  
+  header {
+    background-color: hsl(222, 35%, 38%);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  form {
+    margin: 1rem;
+  }
+  
+  label,
+  input,
+  textarea,
+  button {
+    display: block;
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #8ebedc;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2b6657;
+  }
+  
+  #thank-you {
+    background-color: #3f8474;
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
