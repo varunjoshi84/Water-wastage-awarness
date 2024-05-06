@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+  .banner{
+    width: 100;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),
+    url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+  }
+  .navbar{
+    width: 95%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .logo{
+    width: 120px;
+    cursor: pointer;
+  }
+  .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+  }
+  .navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #0df3e5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+  .navbar ul li:hover ::after{
+    width: 100%;
+  }
+  .content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+
+  }
+  .content h1{
+    font-size: 70px;
+    margin-top: 80px;
+  }
+  .content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  .btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 39px;
+    margin-right: 20px;
+    font-size: 18px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+  .btn:hover{
+    border: 1px solid #0df3e5;
+    background: #0df3e5;
+    transition: 0.5s;
+  }
+  .btn2{
+  display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #0a0a0a;
+    padding: 10px 39px;
+    margin-right: 20px;
+    font-size: 18px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+  .mainp{
+    font-size: 22px;
+  }
+
+/* COnserve Water*/
+
+.section-2{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.col2{
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.col2:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/*---------secrtion-3--------*/
+
+
+.section-3{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.col-3{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+.col-3 img{
+    width: 100%;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(31, 212, 212, 0.3);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    font-size: 40px;
+    color: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+.fa-solid.fa-arrow-down{
+    font-size: 40px;
+}
+.p2{
+    text-align: left;
+}
+
+
+/*--------section-4---------*/
+.section-4{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.col-4{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.col-4 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.col-4 p{
+    padding: 0;
+}
+.col-4 h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/*-----scetion-5-----------*/
+
+.section-5{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.col-5{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #1c1b1b;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+.col-5 img{
+    height: 54px;
+    width: 57px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.col-5 p{
+    padding: 0;
+    color: #fff;
+}
+.col-5 h3{
+    margin-top: 15px;
+    text-align: left;
+    color: #fff;
+}
+.section-5 h1{
+    text-align: left;
+}
+.section-5 p{
+    text-align: left;
+}
+.fa.fa-star{
+    color: white;
+}
+.fa-solid.fa-star-half-stroke{
+    color: white;
+}
+.fa-regular.fa-star{
+    color: white;
+}
+
+/*------------section-6------*/
+.section-6{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://media.istockphoto.com/id/1169630303/photo/blue-textured-background.webp?b=1&s=170667a&w=0&k=20&c=tI2xFhXqXFqMM0IvxSYY3F7LIwv450h2ch3yD-lZ9HU=');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+
+}
+.section-6 h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+/*------footer-----*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top:20px;
+    font-weight: 600;
+}
+#ico{
+    color: #0df3e5;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-solid.fa-copyright{
+    color: #0df3e5;
+}
